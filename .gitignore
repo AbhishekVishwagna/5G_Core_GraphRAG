@@ -1,0 +1,24 @@
+# Environment variables (API keys, passwords )
+.env
+
+# Python virtual environment (too large files)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# TeleQnA dataset (too large for GitHub)
+TeleQnA.txt
+5g_core_evaluation_set.json
+5g_core_balanced_eval_set.json
+
+# VS Code settings
+.vscode/
+
+# Logs
+failure_log.json
+*.log
+
+# Windows
+Thumbs.db
+desktop.ini
